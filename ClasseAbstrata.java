@@ -8,22 +8,18 @@
 .......................................................................................
 
  */
-package RegistroLogico_Transito;
-class ClasseAbstrata 
+package Transito_io;
+public class ClasseAbstrata 
 {
-    int pcodigo;
-    String pnomecidade;
-    int pacidentes;
+    int CodigoCidade ;String NomeCidade ; int QtdAcidentes ;
     ClasseAbstrata()
     {
-        this (0, "", 0);
+        this(0, " ", 0);
     }
-    ClasseAbstrata (int pcodigoclasse, String pnomecidadeclasse, int pacidentesclasse )
+    ClasseAbstrata( int pcodigocidade, String pnomecidade, int pqtdacidentes )
     {
-        pcodigo = pcodigoclasse;
-        pnomecidade = pnomecidadeclasse;
-        pacidentes = pacidentesclasse;       
+        CodigoCidade = ( pcodigocidade ) ; 
+        NomeCidade = ( pnomecidade ) ;
+        QtdAcidentes = ( pqtdacidentes ) ;
     }
 }
-    
-
